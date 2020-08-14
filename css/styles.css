@@ -148,10 +148,6 @@ header .logo {
   letter-spacing: 12px;
   font-size: 36px;
   line-height: 1.1em;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-animation: comeinleft 0.7s ease forwards;
-          animation: comeinleft 0.7s ease forwards;
 }
 
 @media screen and (min-width: 600px) {
@@ -191,11 +187,6 @@ header .logo {
   line-height: 1.4em;
   margin-bottom: 25px;
   width: 80%;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-animation: comeinright 0.7s ease forwards;
-          animation: comeinright 0.7s ease forwards;
-  opacity: 0;
 }
 
 @media screen and (min-width: 600px) {
@@ -362,33 +353,5 @@ header .logo {
   }
 }
 
-@-webkit-keyframes comeinleft {
-  to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
 
-@keyframes comeinleft {
-  to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@-webkit-keyframes comeinright {
-  to {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes comeinright {
-  to {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
 /*# sourceMappingURL=styles.css.map */
