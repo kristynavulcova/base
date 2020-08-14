@@ -124,8 +124,7 @@ header {
         letter-spacing: 12px;
         font-size: 36px;
         line-height: 1.1em;
-        //transform: translateX(-100%);
-        //animation: comeinleft 0.7s ease forwards;
+
 
         @include mQ(600px) {
             font-size: 40px;
@@ -158,9 +157,7 @@ header {
         line-height: 1.4em;
         margin-bottom: 25px;
         width: 80%;
-        //transform: translateX(100%);
-        //animation: comeinright 0.7s ease forwards;
-        //opacity: 0;
+
 
         @include mQ(600px) {
             font-size: 15px;
@@ -290,17 +287,4 @@ header {
     }
 }
 
-/*
-@keyframes comeinleft {
-    to {
-        transform: translateX(0);
-    }
-}
 
-@keyframes comeinright {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-*/
